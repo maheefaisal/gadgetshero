@@ -1,5 +1,15 @@
-const App = () => {
-  return <h1>Welcome to HeroGadget</h1>
-}
+import About from "./components/About";
+import Header from "./components/Header";
+import Home from "./components/Home";
 
-export default App
+const App = () => {
+  return (
+    <>
+      <Header></Header>
+      <Home></Home>
+      <About></About>
+    </>
+  );
+};
+
+export default App;
