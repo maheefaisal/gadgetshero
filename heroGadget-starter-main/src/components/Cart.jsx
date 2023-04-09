@@ -1,12 +1,10 @@
 import React from "react";
+import { getStoredCart } from "../utils/fakeDB";
 
 const Cart = () => {
-  
-    return (
-    <div>
-        cart
-    </div>
-  );
+  const cart = getStoredCart();
+  console.log(cart);
+  return <div>cart</div>;
 };
 
 export default Cart;
