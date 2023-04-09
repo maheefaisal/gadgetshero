@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -28,12 +28,13 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop>,
-        loader:()=> fetch('products.json'),
+        loader: () => fetch("products.json"),
       },
       {
-        path:'/cart',
-        element: <Cart></Cart>
-      }
+        path: "/cart",
+        element: <Cart></Cart>,
+        loader: () => fetch("products.json"),
+      },
     ],
   },
 ]);
