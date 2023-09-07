@@ -2,8 +2,8 @@
 ```markdown
 # Gadgets Hero
 
-![Gadgets Hero](https://i.ibb.co/x1qzfjb/Screenshot-2.png)
-![Gadgets Hero](https://i.ibb.co/8906GRK/Screenshot-1.png)
+![Gadgets Hero](./Screenshot_1.png)
+![Gadgets Hero](./Screenshot_2.png)
 
 Gadgets Hero is a web application built with React.js, JavaScript, Vite, React Router DOM, and Tailwind CSS. It offers a seamless shopping experience for gadget enthusiasts, providing features like browsing products, adding items to the cart, and learning more about the team behind the project.
 
